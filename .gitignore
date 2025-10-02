@@ -1,0 +1,35 @@
+# Ignorar arquivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar pastas de ambiente virtual
+venv/
+env/
+*.env
+
+# Ignorar arquivos de dependências, como o arquivo de pacotes
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Ignorar arquivos de configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar o arquivo CSV gerado durante os testes ou execução
+*.csv
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do editor de código
+.vscode/
+.idea/
+
+# Ignorar arquivos de cache
+.cache/
