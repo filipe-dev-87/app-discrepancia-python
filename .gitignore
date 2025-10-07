@@ -23,6 +23,12 @@ pip-wheel-metadata/
 # Ignorar o arquivo CSV gerado durante os testes ou execução
 *.csv
 
+# Ignorar o arquivo xlsx gerado durante os testes ou execução
+*.xlsx
+
+# Ignorar arquivos txt
+*.txt
+
 # Ignorar arquivos temporários do sistema operacional
 .DS_Store
 Thumbs.db
